@@ -86,8 +86,9 @@ nav ul li a{
 
 }
 .speakers{
-    padding: 40px 80px 40px;
+    padding: 40px clamp(20px, 4vw, 80px) 40px;
     background: #ffffff;
+    box-sizing: border-box;
 }
 .speakers h2{
     text-align: center;
@@ -415,8 +416,9 @@ nav ul li a{
 
 }
 .speakers{
-    padding: 40px 80px ;
+    padding: 40px clamp(20px, 4vw, 80px);
     background: #ffffff;
+    box-sizing: border-box;
 }
 .speakers h2{
     text-align: center;
@@ -466,15 +468,6 @@ nav ul li a{
     color: #666;
     font-size: 16px;
     font-weight: 700px;
-}
-@media (max-width: 768px) {
-    .speakers {
-        padding: 40px 30px;
-    }
-
-    .speaker-container {
-        gap: 20px;
-    }
 }
 .pricing{
     background-color: #ffffff;
