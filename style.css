@@ -429,20 +429,20 @@ nav ul li a{
 }
 .speaker-container{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: clamp(15px, 3vw, 30px);
 }
 .speaker-card{
-    background: white;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
 }
 .speaker-card img{
     width: 100%;
+    max-width: 100%;
     height: auto;
     display: block;
-    object-fit: cover;
+    
 }
 .speaker-card h4,
 .speaker-card h3,
