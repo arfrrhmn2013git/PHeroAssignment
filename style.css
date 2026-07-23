@@ -657,4 +657,18 @@ nav ul li a{
         font-weight: bold;
         word-spacing: normal;
             }
-    
+    @media (max-width: 768px) {
+    .speaker-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .speaker-card {
+        width: 100%;
+    }
+
+    .speaker-card img {
+        width: 100%;
+        height: auto;
+    }
+}
