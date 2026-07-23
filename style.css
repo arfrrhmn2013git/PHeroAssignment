@@ -442,6 +442,7 @@ nav ul li a{
     width: 100%;
     height: auto;
     display: block;
+    object-fit: cover;
 }
 .speaker-card h4,
 .speaker-card h3,
