@@ -327,6 +327,35 @@ nav ul li a{
         font-weight: bold;
         word-spacing: normal;
             }
+
+@media (max-width: 768px) {
+    .speaker-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .speakers h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .speakers {
+        padding: 30px 16px 40px;
+    }
+
+    .speaker-card h4,
+    .speaker-card h3,
+    .speaker-card p {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .speaker-card h3 {
+        font-size: 20px;
+    }
+}
     
 nav{
     display:flex;
@@ -419,6 +448,8 @@ nav ul li a{
     padding: 40px clamp(20px, 4vw, 80px);
     background: #ffffff;
     box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .speakers h2{
     text-align: center;
@@ -431,6 +462,8 @@ nav ul li a{
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: clamp(15px, 3vw, 30px);
+    max-width: 1100px;
+    margin: 0 auto;
 }
 .speaker-card{
     width: 100%;
