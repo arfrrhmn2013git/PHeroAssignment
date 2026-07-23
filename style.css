@@ -469,13 +469,15 @@ nav ul li a{
     width: 100%;
     min-width: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 .speaker-card img{
     width: 100%;
     max-width: 100%;
     height: auto;
     display: block;
-    
+    object-fit: cover;
+    object-position: center;
 }
 .speaker-card h4,
 .speaker-card h3,
