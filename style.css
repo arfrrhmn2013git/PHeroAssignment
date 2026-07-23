@@ -462,13 +462,13 @@ nav ul li a{
     margin-bottom: 0 ;
     font-size: 24px;
     color: black;
-    font-weight: 700px;
+    font-weight: 700;
 }
 .speaker-card p{
     margin-bottom: 0;
     color: #666;
     font-size: 16px;
-    font-weight: 700px;
+    font-weight: 700;
 }
 .pricing{
     background-color: #ffffff;
@@ -539,7 +539,7 @@ nav ul li a{
     color: #555555;
     font-size: 14px;
     line-height: 2.1;
-    padding: left;
+    padding-left: 14px;
     position: relative;
     font-weight: 800;
 }
